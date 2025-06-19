@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kicks Kingdom | Premium Sneakers</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/favicon.png" type="image/png">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="sneaker-animation">
+            <div class="sneaker"><img src="assets/loader.png" alt="Sneaker loading animation" class="sneaker"></div>
+            <div class="shadow"></div>
+        </div>
+        <div class="loading-text">Loading your sneaker experience...</div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Kicks<span>Kingdom</span></a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#collection">Collection</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="nav-icons">
+                <a href="#" class="cart-icon"><i class="fas fa-shopping-cart"></i><span class="cart-count">0</span></a>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <a href="#home">Home</a>
+        <a href="#collection">Collection</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-video">
+            <video autoplay muted loop>
+                <source src="assets/hero-bg.mp4" type="video/mp4">
+            </video>
+            <div class="overlay"></div>
+        </div>
+        <div class="container">
+            <h1 class="typed-text"></h1>
+            <p>Discover the latest drops from top brands and limited edition collaborations</p>
+            <div class="hero-buttons">
+                <a href="#collection" class="btn ripple">Shop Now</a>
+                <a href="#" class="btn btn-outline ripple">View Collection</a>
+            </div>
+        </div>
+        <a href="#collection" class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <!-- Sneaker Showcase -->
+    <section id="collection" class="collection">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Our Latest Drops</h2>
+                <p>Limited stock available on exclusive releases</p>
+            </div>
+            <div class="sneaker-grid">
+                <!-- Sneaker cards will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>What Our Customers Say</h2>
+                <p>Real reviews from sneaker enthusiasts</p>
+            </div>
+            <div class="review-cards">
+                <!-- Review cards will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content" data-aos="fade-right">
+                <h2>Our Story</h2>
+                <p>Founded in 2015, Kicks Kingdom started as a small sneaker boutique with a passion for rare finds and exclusive drops. Today, we've grown into a premier destination for sneakerheads worldwide.</p>
+                <p>We partner directly with brands to bring you authentic, limited-edition sneakers that you won't find anywhere else.</p>
+                <a href="#" class="btn ripple">Learn More</a>
+            </div>
+            <div class="about-image" data-aos="fade-left">
+                <img src="assets/about-image.jpg" alt="Our sneaker collection">
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container" data-aos="fade-up">
+            <h2>Get Exclusive Drops</h2>
+            <p>Subscribe to our newsletter for early access to new releases and special discounts</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Your email address" required>
+                <button type="submit" class="btn ripple">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Get In Touch</h2>
+                <p>Have questions? We're here to help</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>123 Sneaker Street, NYC 10001</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <p>(555) 123-4567</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>abc@xyz.co.in</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form" data-aos="fade-left">
+                    <form>
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn ripple">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#" class="logo">Kicks<span>Kingdom</span></a>
+                    <p>Your premier destination for exclusive sneakers and streetwear.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <a href="#home">Home</a>
+                    <a href="#collection">Collection</a>
+                    <a href="#reviews">Reviews</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-links">
+                    <h3>Support</h3>
+                    <a href="#">FAQs</a>
+                    <a href="#">Shipping Policy</a>
+                    <a href="#">Returns & Exchanges</a>
+                    <a href="#">Size Guide</a>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address">
+                        <button type="submit" class="btn ripple">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Kicks Kingdom. All rights reserved.</p>
+                <div class="payment-methods">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-amex"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                    <i class="fab fa-cc-apple-pay"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Shopping Cart Drawer -->
+    <div class="cart-drawer">
+        <div class="cart-header">
+            <h3>Your Cart</h3>
+            <button class="close-cart"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="cart-items">
+            <!-- Cart items will be populated by JavaScript -->
+            <div class="empty-cart">
+                <i class="fas fa-shopping-cart"></i>
+                <p>Your cart is empty</p>
+            </div>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span class="total-amount">$0.00</span>
+            </div>
+            <a href="#" class="btn checkout-btn ripple">Checkout</a>
+        </div>
+    </div>
+    <div class="cart-overlay"></div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
