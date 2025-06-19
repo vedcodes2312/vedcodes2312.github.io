@@ -10,10 +10,10 @@ Follow the steps below to set up and run the project locally on your system.
 
 ### 📁 Project Structure
 
-├── assets/ # Images, icons, fonts etc.
-├── css/ # Stylesheets
-├── js/ # JavaScript files
-├── index.html # Main HTML page
+├── assets/ # Images, icons, fonts etc. <br>
+├── css/ # Stylesheets <br>
+├── js/ # JavaScript files <br>
+├── index.html # Main HTML page <br>
 └── README.md # Project documentation
 
 
