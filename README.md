@@ -26,7 +26,8 @@ Follow the steps below to set up and run the project locally on your system.
 - Git (optional, for cloning the repo)
 
 ---
-###AI TOOLS USED - DeepSeek and ChatGPT
+ AI TOOLS USED - DeepSeek and ChatGPT
+ Other Tools - Git and GitHub
 ### 🚀 Steps to Run
 
 #### Option 1: Using Git (Recommended)
