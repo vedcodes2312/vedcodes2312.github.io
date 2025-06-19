@@ -26,7 +26,7 @@ Follow the steps below to set up and run the project locally on your system.
 - Git (optional, for cloning the repo)
 
 ---
-
+###AI TOOLS USED - DeepSeek and ChatGPT
 ### 🚀 Steps to Run
 
 #### Option 1: Using Git (Recommended)
@@ -46,4 +46,5 @@ Click on the green Code button above and choose Download ZIP.
 Extract the ZIP file.
 
 Open the folder and double-click on index.html.
+
 
